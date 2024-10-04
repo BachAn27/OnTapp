@@ -1,0 +1,89 @@
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    background-color: orange;
+    font-size: 18px;
+}
+.my-class {
+    background-color: pink;
+    color: black;
+    font-size: 24px;
+    text-align: start;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Styling for the first ID */
+#one-id {
+    background-color: white;
+    color: blue;
+    font-size: 48px;
+    text-align: start;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Styling for the second ID */
+#another-id {
+    background-color: lightgreen;
+    color: black;
+    font-size: 36px;
+    text-align: start;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px 0;
+}
+button {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+    padding: 15px 30px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* First button styles */
+#first-button {
+    background-color: black;
+    color: white;
+}
+
+/* Second button styles */
+#second-button {
+    background-color: yellow;
+    color: black;
+    border: 3px solid black;
+}
+
+.avatar {
+    display: block;
+    margin: 10px auto;
+    object-fit: cover;
+}
+
+/* Proportioned avatar (300px width, retains square proportions) */
+.proportioned {
+    width: 300px;
+    height: auto; /* Automatically adjust height to keep square proportions */
+}
+
+/* Distorted avatar (200px width, height twice the width) */
+.distorted {
+    width: 200px;
+    height: 400px; /* Hardcoded to be twice the width */
+}
+
